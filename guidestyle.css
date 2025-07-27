@@ -92,8 +92,12 @@ h1 {
   border-radius: 17px;
   margin-bottom: 24px;
   margin-top: 24px;
+  width:100%;
+  padding:40px;
 }
-
+.text-box:focus{
+  outline: none;
+}
 .action-buttons {
   display: flex;
   justify-content: space-between;

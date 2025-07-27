@@ -22,7 +22,7 @@ body {
   width: 1000px;
 }
 
-/* Header Section */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -85,6 +85,9 @@ main {
 
 .link-btn:hover {
   background-color: #91b9d6;
+}
+.link{
+  text-decoration: none;
 }
 
 /* Right Panel */

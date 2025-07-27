@@ -12,17 +12,19 @@
 <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300..1000&family=Slackey&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="guidestyle.css"/>
 </head>
+
+
 <body>
   <div class="container">
     <header>
       <div class="logo">QuickKeys</div>
       <nav>
         <a href="#" class="active">Home</a>
-        <a href="#">Guide</a>
+        <a href="main.html">Guide</a>
         <a href="#">Leaderboard</a>
       </nav>
     </header>
-
+    
     <main>
       <h1>Typing Speed Test</h1>
       <div class="mode-selector">
@@ -30,14 +32,17 @@
         <span class="text-mode btn white">Random Text</span>
         <button class="btn green">Easy Mode</button>
       </div>
-
-      <div class="text-box"></div>
-
+      
+      <div class="text-box" tabindex="0"></div>
+      
       <div class="action-buttons">
-        <button class="btn red">Reset</button>
-        <button class="btn blue">Start</button>
+        <button class="btn red reset-button" onclick="resetText()">Reset</button>
+        
+        <button class="btn blue start-button " onclick="writeText()">Start</button>
       </div>
     </main>
   </div>
+
+  <script src="guidepage.js" defer></script>
 </body>
 </html>
