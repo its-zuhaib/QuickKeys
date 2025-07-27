@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #0e1d36;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #e5f0fa;
+  border-radius: 24px;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+  padding: 100px;
+  width: 1000px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.logo {
+  font-family: 'Slackey', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  width: 160px;
+  height: 18px;
+  color: #1E2A38;
+}
+
+nav a {
+  font-family: 'Recursive', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-left: 16px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #1E2A38;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+nav a.active {
+  background-color: white;
+  border: 2px solid #c5dff3;
+}
+
+.results-main {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.left-stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+}
+
+.stat .label {
+  font-family: 'Recursive', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  font-weight: bold;
+  color: #1E2A38;
+  text-align: center;
+}
+.value-box {
+  background-color: #929292;
+  color:white;
+  font-size: 28px;
+  font-weight: bold;
+  border-radius: 12px;
+  padding: 12px 24px;
+  text-align: center;
+  margin-top: 6px;
+}
+
+.graph-placeholder {
+  width: 600px;
+  height: 250px;
+  background-color: #1c2f4b;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #aaa;
+  font-size: 14px;
+}
+
+.details {
+  font-family: 'Recursive', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.detail-box {
+  text-align: center;
+}
+
+.small-label {
+  font-family: 'Recursive', sans-serif;
+  display: block;
+  font-size: 14px;
+  color: #132235;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.small-value {
+  background-color: #a5a5a5;
+  color: white;
+  font-weight: bold;
+  padding: 9px 31px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.restart-container {
+  text-align: center;
+  font-family: 'Recursive', sans-serif;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.restart-btn {
+  background-color: #26235C;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
